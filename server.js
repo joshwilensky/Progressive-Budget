@@ -1,28 +1,29 @@
 require("dotenv").config()
 const express = require("express");
+const logger = require("morgan");
 const mongoose = require("mongoose");
+const compression = require("compression");
+const PORT = 3000;
 const app = express();
-const PORT = process.env.PORT || 3000;
 
-// MIDDLEWARE
+app.use(logger("dev"));
+app.use(compression());
 app.use(express.urlencoded({
     extended: true
 }));
 app.use(express.json());
+
 app.use(express.static("public"));
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout"
-mongoose.connect(MONGODB_URI, {
+mongoose.connect("mongodb://localhost/budget", {
     useNewUrlParser: true,
-    useFindAndModify: false,
-    useUnifiedTopology: true
+    useFindAndModify: false
 });
 
 // ROUTES
-require("./routes/api-routes.js")(app);
-require("./routes/html-routes.js")(app);
+app.use(require("./routes/api.js"));
 
 // LISTENING ON PORT 3000
 app.listen(PORT, () => {
-    console.log(`App running on port ${PORT}`);
+    console.log(`App running on port ${PORT}!`);
 });
