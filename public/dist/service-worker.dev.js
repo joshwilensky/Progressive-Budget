@@ -22,4 +22,29 @@ self.addEventListener("activate", function (evt) {
     }));
   }));
   self.clients.claim();
+}); // FETCH
+
+self.addEventListener("fetch", function (evt) {
+  if (evt.request.url.includes("/api/")) {
+    evt.respondWith(caches.open(DATA_CACHE_NAME).then(function (cache) {
+      return fetch(evt.request).then(function (response) {
+        // IF THE RESPONSE WAS GOOD, CLONE IT AND STORE IT IN THE CACHE
+        if (response.status === 200) {
+          cache.put(evt.request.url, response.clone());
+        }
+
+        return response;
+      })["catch"](function (err) {
+        // NETWORK REQUEST FAILED, TRY TO GET IT FROM THE CACHE
+        return cache.match(evt.request);
+      });
+    })["catch"](function (err) {
+      return console.log(err);
+    }));
+    return;
+  }
+
+  evt.respondWith(caches.match(evt.request).then(function (response) {
+    return response || fetch(evt.request);
+  }));
 });
