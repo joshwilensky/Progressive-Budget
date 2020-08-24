@@ -6,47 +6,47 @@
 
 ---
 
-### [Description](#Description)
+## [Description](#Description)
 
-### [Screenshots](#Screenshots)
+## [Screenshots](#Screenshots)
 
-### [Installation](#Installations)
+## [Installation](#Installations)
 
-### [Usage](#Usages)
+## [Usage](#Usages)
 
-### [License](#License)
+## [License](#License)
 
-### [Contributing](#Contributions)
+## [Contributing](#Contributions)
 
-### [Tests](#Tests)
+## [Tests](#Tests)
 
-### [Contact](#Contact)
+## [Contact](#Contact)
 
 ---
 
-### <a name="Description"></a>Description:
+## <a name="Description"></a>Description:
 
 As an avid traveller I want to be able to track my withdrawals and deposits with or without a data/internet connection so that my account balance is accurate when I am traveling.
 
 ---
 
-### <a name="Screenshots"></a>Screenshots:
+## <a name="Screenshots"></a>Screenshots:
 
 ---
 
-### <a name="Installation"></a>Installations:
+## <a name="Installation"></a>Installations:
 
 I created the progressive budget app using **MongoDB**, **Mongoose**, **Express**, **mLab**, **Compression**, **Glob** & **LightServer**. I downloaded `npm init`, `npm install`. As well I used `npm nodemon` to test the app.
 
 ---
 
-### <a name="Usage"></a>Usages:
+## <a name="Usage"></a>Usages:
 
 Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
 
 ---
 
-### <a name="License"></a>License:
+## <a name="License"></a>License:
 
 **MIT License Copyright (c) 2020 Joshua Wilensky**
 
@@ -70,7 +70,7 @@ SOFTWARE.
 
 ---
 
-### <a name="Contributing"></a>Contributions:
+## <a name="Contributing"></a>Contributions:
 
 - Ben Wright
 - Justin Pinero
@@ -78,13 +78,13 @@ SOFTWARE.
 
 ---
 
-### <a name="Tests"></a>Tests:
+## <a name="Tests"></a>Tests:
 
 - [x] nodemon
 
 ---
 
-### <a name="Contact"></a>Contact the Author:
+## <a name="Contact"></a>Contact the Author:
 
 
 |    Contact    |                       Links                       |
