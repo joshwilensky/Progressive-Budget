@@ -6,21 +6,21 @@
 
 ---
 
-## [Description](#Description)
+### [Description](#Description)
 
-## [Screenshots](#Screenshots)
+### [Screenshots](#Screenshots)
 
-## [Installation](#Installations)
+### [Installation](#Installations)
 
-## [Usage](#Usages)
+### [Usage](#Usages)
 
-## [License](#License)
+### [License](#License)
 
-## [Contributing](#Contributions)
+### [Contributing](#Contributions)
 
-## [Tests](#Tests)
+### [Tests](#Tests)
 
-## [Contact](#Contact)
+### [Contact](#Contact)
 
 ---
 
