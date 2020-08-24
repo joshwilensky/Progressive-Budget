@@ -20,11 +20,7 @@
 
 ### [Tests](#Tests)
 
-### [Deployment](#Deployment)
-
-### [Questions](#Questions)
-
-### [GitHub](#GitHub)
+### [Contact](#Contact)
 
 ---
 
@@ -86,16 +82,12 @@ SOFTWARE.
 
 ---
 
-### <a name="Deployment"></a>Deployment:
+### <a name="Contact"></a>Contact the Author:
 
-**Heroku --** https://git.heroku.com/thawing-savannah-90044.git
 
-### <a name="Questions"></a>Email the Author:
-
-joshwilensky@gmail.com
-
----
-
-### <a name="Github"></a>GitHub Account:
-
-[Joshua Wilensky](http://github.com/joshwilensky)
+| Contact      | Links                                             |
+| ------------ | ------------------------------------------------- |
+| **Email**    | joshwilensky@gmail.com                            |
+| **GitHub**   | https://github.com/joshwilensky                   |
+| **Heroku**   | https://git.heroku.com/thawing-savannah-90044.git |
+| **LinkedIn** | https://www.linkedin.com/in/joshwilensky/         |
