@@ -93,3 +93,5 @@ SOFTWARE.
 | **GitHub:**   | https://github.com/joshwilensky                   |
 | **Heroku:**   | https://git.heroku.com/thawing-savannah-90044.git |
 | **LinkedIn:** | https://www.linkedin.com/in/joshwilensky/         |
+
+---
