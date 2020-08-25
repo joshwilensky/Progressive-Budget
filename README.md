@@ -89,7 +89,7 @@ SOFTWARE.
 
 |    Contact    |                       Links                       |
 | :-----------: | :-----------------------------------------------: |
-|  **Email:**   |              joshwilensky@gmail.com               |
+|  **Email:**   | [joshwilensky@gmail.com](joshwilenskY@gmail.com)  |
 |  **GitHub:**  |          https://github.com/joshwilensky          |
 |  **Heroku:**  | https://git.heroku.com/thawing-savannah-90044.git |
 | **LinkedIn:** |     https://www.linkedin.com/in/joshwilensky/     |
