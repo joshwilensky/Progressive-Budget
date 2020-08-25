@@ -31,7 +31,8 @@ As an avid traveller I want to be able to track my withdrawals and deposits with
 ---
 
 ## <a name="Screenshots"></a>Screenshots:
-
+![image](assets/BT-Online.png)
+![image](assets/BT-Offline.png)
 ---
 
 ## <a name="Installation"></a>Installations:
@@ -87,11 +88,11 @@ SOFTWARE.
 ## <a name="Contact"></a>Contact the Author:
 
 
-|    Contact    |                          Links                          |
-| :-----------: | :-----------------------------------------------------: |
-|  **Email:**   | [joshwilensky@gmail.com](mailto:joshwilensky@gmail.com) |
-|  **GitHub:**  |             https://github.com/joshwilensky             |
-|  **Heroku:**  |    https://git.heroku.com/thawing-savannah-90044.git    |
-| **LinkedIn:** |        https://www.linkedin.com/in/joshwilensky/        |
+|    Contact    |                       Links                       |
+| :-----------: | :-----------------------------------------------: |
+|  **Email:**   |              joshwilensky@gmail.com               |
+|  **GitHub:**  |          https://github.com/joshwilensky          |
+|  **Heroku:**  | https://git.heroku.com/thawing-savannah-90044.git |
+| **LinkedIn:** |     https://www.linkedin.com/in/joshwilensky/     |
 
 ---
